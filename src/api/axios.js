@@ -11,5 +11,5 @@ import axios from "axios";
 //   return s;
 // };
 export default axios.create({
-  baseURL: "http://localhost:8000/api",
+  baseURL: "https://socialize-server-production.up.railway.app/api",
 });
