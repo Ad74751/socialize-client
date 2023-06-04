@@ -12,7 +12,7 @@ import { io } from "https://cdn.socket.io/4.4.1/socket.io.esm.min.js";
 
 // "undefined" means the URL will be computed from the `window.location` object
 const URL =
-  process.env.NODE_ENV === "production" ? undefined : "http://localhost:8000";
+  process.env.NODE_ENV === "production" ? "https://socialize-server-production.up.railway.app/" : "https://socialize-server-production.up.railway.app/";
 
 const getUser = () => {
   try {
